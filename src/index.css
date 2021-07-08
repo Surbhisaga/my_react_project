@@ -1,52 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Raleway&display=swap');
+
 *{
-  margin: 0;
+  box-sizing: border-box;
   padding: 0;
-  box-sizing: border-box;
-}
-.heading{
-  color: #fa9191;
-  text-align: center;
-  text-transform: capitalize;
-  font-weight: bold;
-  text-shadow: 0px 2px 4px #ffe9c5;
-  margin: 40px 0;
-  font-family: 'Bona Nova', serif;
-}
-
-.img_div{
-  display: flex;
-  justify-content: center;
-}
-
-.img_div img{
-  width: 250px;
-  height: 300px; 
-}
-
-body{
-  background-color: #b4f2e1;
-  box-sizing: border-box;
   margin: 0;
-  padding: 0%;
-  font-family: 'Bona Nova', serif;
+  background-color: #d2dbdd;
 }
 
 div{
   width: 100%;
   height: 100vh;
+  background-color: #8e44ad;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -30px;
 }
 
 h1{
-  background-color: #ffe9c5;
-  padding: 20px 20px;
-  border-radius: 20px;
-  color:#fa9191;
+  color: white;
+  background: transparent;
+  text-shadow: 0px 2px 2px black;
 }
 
-span{
-  color: #eb6383;
+
+button{
+  padding: 12px 20px;
+  background: #9b59b6;
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
 }

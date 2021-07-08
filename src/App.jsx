@@ -1,28 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function App(){
-        let curDate=new Date();
-curDate = curDate.getHours();
-let greeting = '';
-const cssStyle={};
+const App = () => {
+    const purple  = '#8e44ad';   
+    //array de-structuring
+    const [bg , setBg ] = useState(purple);
 
-if(curDate>=1 && curDate<12){
-  greeting="Good Morning";
-  cssStyle.color="green";
-}else if(curDate>=12 && curDate<19){
-  greeting="Good Afternoon";
-  cssStyle.color="orange";
-}else{
-  greeting="Good Night";
-  cssStyle.color="black";
-}
- return(
-    <>
-    <div>
-        <h1>Hello sir , <span style={cssStyle}>{greeting}</span></h1>
-    </div>
-    </>
- )
-}
+    const [name,setName] = useState('Click Me');
+
+    const bgChange = () => {
+        // console.log("clicked");
+        let newBg ="#34495e";
+        setBg(newBg);
+        setName('ouch!! ')
+    }
+
+    const bgBack = () => {
+        setBg(purple);
+        setName("ayyo!!");
+    }
+
+    return(
+        <>
+        <div style={{backgroundColor : bg }}>
+            <button onClick={bgChange} onDoubleClick = {bgBack}> {name}</button>
+            {/* <button onMouseEnter={bgChange} onMouseLeave = {bgBack}> {name}</button> */}
+        </div>
+        </>
+    )
+};
 
 export default App;
