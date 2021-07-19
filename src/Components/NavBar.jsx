@@ -21,6 +21,7 @@ const NavBar = () =>{
                 <NavLink className={classes.tabs} to='./' exact>Mobio</NavLink>
                 <NavLink className={classes.tabs} to='all' exact>All Users</NavLink>
                 <NavLink className={classes.tabs} to='add' exact>Add User</NavLink>
+                <NavLink className={classes.tabs} to='upload' exact>Image</NavLink>
             </Toolbar>
         </AppBar>
     )

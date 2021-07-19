@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "Surbhi Sagathiya",
+      "username": "subhu",
+      "email": "surbhi@gmail.com",
+      "phone": "4569871236",
+      "id": 1
+    },
+    {
+      "name": "harsh",
+      "username": "harsh",
+      "email": "harsh@gmail.com",
+      "phone": "1234569872",
+      "id": 2
+    },
+    {
+      "name": "harsh",
+      "username": "harsh",
+      "email": "harsh@gmail.com",
+      "phone": "1234569872",
+      "id": 3
+    },
+    {
+      "name": "harsh",
+      "username": "harsh",
+      "email": "harsh@gmail.com",
+      "phone": "1234569872",
+      "id": 4
+    },
+    {
+      "name": "harsh",
+      "username": "harsh",
+      "email": "harsh@gmail.com",
+      "phone": "1234569872",
+      "id": 5
+    },
+    {
+      "name": "harsh",
+      "username": "harsh",
+      "email": "harsh@gmail.com",
+      "phone": "1234569872",
+      "id": 6
+    }
+  ]
+}
