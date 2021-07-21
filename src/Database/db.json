@@ -1,0 +1,99 @@
+
+   [
+    {
+      "date": "24/6/2021",
+      "money": "30",
+      "whereby": "coffee",
+      "id": 1
+    },
+    {
+      "date": "20/7/2021",
+      "money": "-100",
+      "whereby": "chiku",
+      "id": 2
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 4
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 5
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 6
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 7
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 8
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 9
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 10
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 11
+    },
+    {
+      "date": "2021-07-20",
+      "money": "2000",
+      "whereby": "radha",
+      "id": 12
+    },
+    {
+      "date": "2021-07-22",
+      "money": "-20",
+      "whereby": "coffee",
+      "id": 13
+    },
+    {
+      "date": "2021-07-22",
+      "money": "-20",
+      "whereby": "coffee",
+      "id": 14
+    },
+    {
+      "date": "2021-07-21",
+      "money": "-100",
+      "whereby": "saurav",
+      "id": 15
+    },
+    {
+      "date": "2021-07-21",
+      "money": "-100",
+      "whereby": "saurav",
+      "id": 16
+    },
+    {
+      "date": "2021-07-22",
+      "money": "-50",
+      "whereby": "nasto",
+      "id": 17
+    }
+  ]
