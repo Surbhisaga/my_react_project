@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.image_input{
+  border: 2px solid black;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+}
+
+.image_button{
+  margin-left: 50px;
+  background-image: linear-gradient(to right , violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip : text;
+  -webkit-text-fill-color: transparent;border:none;
+  border: 2px solid darkgray;
+  border-radius: 25px;
+  font-size: 21px;
+  font-family: 'Georgai' sans-serif ;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 35px;
+}
+
+.search_results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 20px 10px 80px;
+}
+
+.search_img{
+  height: 280px;
+  width: 280px;
+  margin: 2px 5px 2px 5px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+}
